@@ -1,0 +1,41 @@
+[package]
+name = "gbc-emu"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrayvec = "0.7"
+bitflags = "1"
+# bitvec = "0.22"
+dynasmrt = "1"
+faerie = "0.16"
+futures = "0.3"
+gbc-emu-macros = { path = "../gbc-emu-macros" }
+gimli = "0.26"
+lazy_static = "1"
+log = { version = "0.4", features = ["max_level_trace", "release_max_level_trace"] }
+paste = "1"
+pin-project = "1"
+pretty_env_logger = "0.4"
+target-lexicon = "0.11"
+tempfile = "3"
+thiserror = "1"
+vpx-encode = "0.6"
+webm = "1"
+webrtc = "0.3"
+
+[dependencies.memoffset]
+# features = ["unstable_const"]
+version = "0.6"
+
+[dependencies.tokio]
+features = ["sync"]
+version = "1"
+
+[dev-dependencies]
+env_logger = "*"
+pretty_assertions = "1"
+rusty-fork = "0.3"
+test-env-log = "0.2"

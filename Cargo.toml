@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    # "gb-color-emu",
+    "gbc-emu",
+    # "gbc-emu-macros",
+]
+
+
+[profile.release]
+debug = true

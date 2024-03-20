@@ -1,0 +1,29 @@
+[package]
+name = "gb-color-emu"
+version = "0.1.0"
+authors = ["Cassie Meharry <cassie@prophetessof.tech>"]
+edition = "2021"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+arrayvec = "0.7"
+bitfield = "0.13"
+bitvec = "0.22"
+cgmath = "0.18"
+log = { version = "0.4", features = ["max_level_trace", "release_max_level_debug"] }
+paste = "1"
+pretty_env_logger = "0.4"
+rand = "0.8"
+ringbuf = "0.2"
+thiserror = "1"
+
+[dev-dependencies]
+criterion = { version = "0.3", features = ["html_reports"] }
+env_logger = "*"
+test-env-log = "0.2.7"
+
+[[bench]]
+name = "simple"
+harness = false

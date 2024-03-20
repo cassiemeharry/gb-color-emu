@@ -1,0 +1,50 @@
+{
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "9cb7ef336bb71fd1ca84fc7f2dff15ef4b033f2a",
+        "sha256": "1ajyqr8zka1zlb25jx1v4xys3zqmdy3prbm1vxlid6ah27a8qnzh",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/9cb7ef336bb71fd1ca84fc7f2dff15ef4b033f2a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "release-21.11",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7048145b7bb8a709028503c3c4ecc6a6924ad4a9",
+        "sha256": "11wcyag226wwxa16xpk76r3ydapywvcdp8257n3yw7m49l8885i4",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/7048145b7bb8a709028503c3c4ecc6a6924ad4a9.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs-mozilla": {
+        "branch": "master",
+        "description": "Mozilla overlay for Nixpkgs.",
+        "homepage": "",
+        "owner": "mozilla",
+        "repo": "nixpkgs-mozilla",
+        "rev": "15b7a05f20aab51c4ffbefddb1b448e862dccb7d",
+        "sha256": "0admybxrjan9a04wq54c3zykpw81sc1z1nqclm74a7pgjdp7iqv1",
+        "type": "tarball",
+        "url": "https://github.com/mozilla/nixpkgs-mozilla/archive/15b7a05f20aab51c4ffbefddb1b448e862dccb7d.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "rust-overlay": {
+        "branch": "master",
+        "description": "Pure and reproducible nix overlay of binary distributed rust toolchains",
+        "homepage": "",
+        "owner": "oxalica",
+        "repo": "rust-overlay",
+        "rev": "d12fa61b3991d332d3b18ccb20a27d5e473f876e",
+        "sha256": "080wvhqx913k1idw74m2liyhbwsp49xqg3shy50r0nmsi3wb8f5f",
+        "type": "tarball",
+        "url": "https://github.com/oxalica/rust-overlay/archive/d12fa61b3991d332d3b18ccb20a27d5e473f876e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
